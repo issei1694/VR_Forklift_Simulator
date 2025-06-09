@@ -1,0 +1,110 @@
+{
+    "name": "Real_DefaultInputActions",
+    "maps": [
+        {
+            "name": "XRI LeftHand Interaction",
+            "id": "de41a1d0-ff2d-4b8c-90c7-bf3f4e15ea7f",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "b6f15c3f-184e-4c93-93b3-4d5fc5a3079d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Activate",
+                    "type": "Button",
+                    "id": "25180b1c-6599-4de7-8593-ea72c2b4d379",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UI Press",
+                    "type": "Button",
+                    "id": "5fa9a8b8-29cc-4994-9e00-1048cb0bc135",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "c0a3b17c-32aa-4ea7-9121-9f804ff61cd9",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "c9fece3f-29b4-4c93-a2a2-53e6b9e2d408",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": []
+        },
+        {
+            "name": "XRI RightHand Interaction",
+            "id": "9b2ef245-f23c-4f93-88c1-5b99811cd74e",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "c06d2cf5-b9f1-474c-85bc-d8e40cd4c688",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Activate",
+                    "type": "Button",
+                    "id": "297354d1-7e80-4e58-8a29-b693df6ed23a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UI Press",
+                    "type": "Button",
+                    "id": "b18dd7b2-30b6-4b97-9f63-d0ea2b0c9e36",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "417c85c3-8997-497f-9009-6f3ec28d73b1",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "8ecaf309-c064-4ad2-998c-4f67c9420d1f",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,52 @@
+{
+    "name": "DefaultInputActions",
+    "maps": [
+        {
+            "name": "XRI LeftHand",
+            "actions": [
+                { "name": "Position", "type": "Value", "expectedControlType": "Vector3" },
+                { "name": "Rotation", "type": "Value", "expectedControlType": "Quaternion" },
+                { "name": "Select", "type": "Button", "expectedControlType": "Button" },
+                { "name": "Activate", "type": "Button", "expectedControlType": "Button" },
+                { "name": "UI Press", "type": "Button", "expectedControlType": "Button" }
+            ],
+            "bindings": []
+        },
+        {
+            "name": "XRI RightHand",
+            "actions": [
+                { "name": "Position", "type": "Value", "expectedControlType": "Vector3" },
+                { "name": "Rotation", "type": "Value", "expectedControlType": "Quaternion" },
+                { "name": "Select", "type": "Button", "expectedControlType": "Button" },
+                { "name": "Activate", "type": "Button", "expectedControlType": "Button" },
+                { "name": "UI Press", "type": "Button", "expectedControlType": "Button" }
+            ],
+            "bindings": []
+        },
+        {
+            "name": "XRI HMD",
+            "actions": [
+                { "name": "Position", "type": "Value", "expectedControlType": "Vector3" },
+                { "name": "Rotation", "type": "Value", "expectedControlType": "Quaternion" }
+            ],
+            "bindings": []
+        },
+        {
+            "name": "XRI UI",
+            "actions": [
+                { "name": "Navigate", "type": "Value", "expectedControlType": "Vector2" },
+                { "name": "Submit", "type": "Button", "expectedControlType": "Button" },
+                { "name": "Cancel", "type": "Button", "expectedControlType": "Button" },
+                { "name": "Point", "type": "Value", "expectedControlType": "Vector2" },
+                { "name": "Click", "type": "Button", "expectedControlType": "Button" },
+                { "name": "ScrollWheel", "type": "Value", "expectedControlType": "Vector2" },
+                { "name": "MiddleClick", "type": "Button", "expectedControlType": "Button" },
+                { "name": "RightClick", "type": "Button", "expectedControlType": "Button" },
+                { "name": "TrackedDevicePosition", "type": "Value", "expectedControlType": "Vector3" },
+                { "name": "TrackedDeviceOrientation", "type": "Value", "expectedControlType": "Quaternion" }
+            ],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}
